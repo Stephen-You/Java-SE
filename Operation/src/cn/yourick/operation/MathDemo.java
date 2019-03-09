@@ -64,4 +64,19 @@ public class MathDemo {
 		i2 = (int) Math.round(d2);
 		System.out.println(i1 + ":" + i2);
 	}
+	/**Math提供了用来求绝对值的方法
+	 * static double abs(double a) 
+返回值为 double绝对值。  
+static float abs(float a) 
+返回 float值的绝对值。  
+static int abs(int a) 
+返回值为 int绝对值。  
+static long abs(long a) 
+返回值为 long绝对值。  
+	 */
+	@Test
+	public void abs() {
+		int i = -9;
+		System.out.println(Math.abs(i));
+	}
 }
